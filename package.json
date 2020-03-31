@@ -1,0 +1,26 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juliovsky/npm.git"
+  },
+  "keywords": [],
+  "author": "Yulia <ybelova24@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juliovsky/npm/issues"
+  },
+  "homepage": "https://github.com/Juliovsky/npm#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0"
+  }
+}
